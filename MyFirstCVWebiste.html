@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SomethPhay's CV</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    html, body {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #AB886D;
+        flex-direction: column;
+    }
+
+    #header {
+        background-color: #D6C0B3;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top:0;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.572);
+        h1{
+            font-size: 1.5rem;
+        }
+    }
+
+    #bio{
+        text-align: center;
+    }
+
+    #containerBoxWrapper {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #containerBox {
+        width: 70%;
+        border-radius: 20px;
+        box-shadow: 0px 2px 5px black;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: #D6C0B3;
+        padding: 20px; 
+    }
+
+    #icon {
+        border-radius: 100%; 
+        width: 12vw;
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.921);
+    }
+
+    #name {
+        text-shadow: 0px 1px 5px rgba(75, 75, 75, 0.781);
+        font-size: 2rem;
+    }
+
+    #eduBoxWrapper {
+        display: flex;
+        justify-content: center;
+    }
+    #eduBox1, #eduBox2, #eduBox3, #eduBox4 {
+        margin: 5px;
+        border-radius: 20px;
+        background-color: rgb(244, 235, 235);
+        padding: 20px;
+        text-align: center;
+    }
+</style>
+<body>
+    <div id="header">
+        <h1><a href="index.html" style="text-decoration: none;
+    color: inherit;">My First CV Website</a></h1>
+    </div>
+    <div id="containerBoxWrapper">
+        <div id="containerBox">
+                <img id="icon" src="MeowingCat.gif" alt="Meowing Cat">
+                <h3 id="name">Someth Phay</h3>
+            <div id="bio">
+                <p>Senior Software Engineering</p>
+                <p>Email: phay.someth70@gmail.com</p>
+                <p>LinkedIn: <a href="www.linkedin.com/in/phay-someth-20b740312" target="_blank" style="text-decoration: none;">@somethphay</a></p>
+            </div>
+            <p style="padding-left: 20px;"><b>Summary: </b>Hi, I'm Someth Phay, a passionate computer science and software engineering student from Cambodia. I'm working towards becoming a professional programmer and full-stack developer. I enjoy learning new technologies and have built a strong foundation in programming languages such as C, C++, HTML, CSS, JavaScript, and Ruby.</p>
+            <h3>Skills</h3>
+            <ul>
+                <li><b>Programming Languages:</b> C program, C++, HTML, CSS, JavaScript, Ruby</li>
+                <li><b>Framework: </b>React, Ruby on Rails</li>
+                <li><b>Database: </b>Mysql, PostgreSQL, TablePlus, SQLite</li>
+                <li><b>Cloud Platform: </b>AWS, GCP</li>
+                <li><b>Version Control: </b>Git, Github, GitLab</li>
+                <li><b>Softskill: </b>Problem-solving, Teamwork, Communication, Leadership, Time Management, Adaptability, Critical Thinking, Creativity, Attention to Detail, Empathy, Conflict Resolution, Patience, Flexibility, Accountability, Emotional Intelligence, Work Ethic, Self-motivation, Collaboration, Active Listening, Resourcefulness, Open-mindedness, Decision-making, Organization, Stress Management, Collaboration with Remote Teams.</li>
+            </ul>
+            <h3>Volunteering</h3>
+            <div id="eduBoxWrapper">
+                <div id="eduBox1">
+                    <p><b>Digital Government Forum</b></p>
+                    <p>11-13th March 2024</p>
+                    <p>I am working as a flow team and Introducing People to <b>Normsa</b> Product</p>
+                    <p style="text-align: right; font-weight: 200; font-size: 12px;">Venue: Koh Pich</p>
+                </div>
+                <div id="eduBox2">
+                    <p><b>Innovation Festival 2024</b></p>
+                    <p>08th May 2024</p>
+                    <p>I am working as a flow team, orginize the event smoothly trough the flow</p>
+                    <p style="text-align: right; font-weight: 200; font-size: 12px;">Venue: CADT</p>
+                </div>
+                <div id="eduBox3">
+                    <p><b>CODE-C 2024</b></p>
+                    <p>28-29 June 2024</p>
+                    <p>I am working as a flow team, handout, supporting the event till the end</p>
+                    <p style="text-align: right; font-weight: 200; font-size: 12px;">Venue: CADT</p>
+                </div>
+                <div id="eduBox4">
+                    <p><b>Tech Anime Game Expo</b></p>
+                    <p>25-26-27 October 2024</p>
+                    <p>I am working as a Engineering team, hosting the event and giving information to people</p>
+                    <p style="text-align: right; font-weight: 200; font-size: 12px;">Venue: Factory Phnom Penh</p>
+                </div>
+            </div>
+            <h2>My Video:</h2>
+            <iframe style="border-radius: 10px;" width="560" height="315" src="https://www.youtube.com/embed/iYWMV9CVuw4?si=GZECUM6QxwN-nF0q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>
